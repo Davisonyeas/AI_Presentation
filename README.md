@@ -92,7 +92,7 @@ Live Demos and Notebooks can be found here:
 
 Demo &amp; Live Coding Repo
 
-![Transformers Sentiment Analysis App]()(images/Transformers_Bootcamp.png)
+![Transformers Sentiment Analysis App]()(https://github.com/Davisonyeas/AI_Presentation/blob/182392b6b15102e74a5796f9c23b0fc417da26e2/images/Transformers_Bootcamp.png)
 
 
 Includes:
