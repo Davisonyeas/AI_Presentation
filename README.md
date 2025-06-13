@@ -2,7 +2,7 @@
 
 This repository contains AI notes for my presentation on **"Explainable AI, Large Models, Neural Networks, and Beyond"**, which is a comprehensive workshop exploring the foundations, architectures, and future of modern AI systems — from the basics of neural networks to the cutting edge of multimodal and embodied intelligence.
 
-Author: [Davis Onyeoguzoro](https://www.linkedin.com/in/davisonye/)
+Author: [Davis Onyeoguzoro](https://www.linkedin.com/in/davis-onyeoguzoro/)
 
 Date: 13th June, 2025
 
@@ -36,7 +36,7 @@ This workshop aims to demystify AI by covering:
 
 Access the full slide deck used in the session:
 
-🔗 [Slides PDF](https://tinyurl.com/mp5zbun7)
+🔗 [Slides PDF](https://docs.google.com/presentation/d/1CXAfhxZO1JoozPFMJ_mp8fTWHa5QChiYAKDoLH6CuJw/edit?usp=sharing)
 
 ---
 
@@ -90,7 +90,10 @@ Access the full slide deck used in the session:
 
 Live Demos and Notebooks can be found here:
 
-[Demo &amp; Live Coding Repo](https://github.com/Davisonyeas/AI_Presentation)
+Demo &amp; Live Coding Repo
+
+![Transformers Sentiment Analysis App]()(images/Transformers_Bootcamp.png)
+
 
 Includes:
 
