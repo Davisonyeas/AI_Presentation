@@ -92,7 +92,7 @@ Live Demos and Notebooks can be found here:
 
 Demo &amp; Live Coding Repo
 
-![Transformers Sentiment Analysis App](https://github.com/Davisonyeas/AI_Presentation/blob/main/images/Transformers_Bootcamp.png?raw=true)
+![Transformers Sentiment Analysis App](https://github.com/Davisonyeas/AI_Presentation/blob/master/images/Transformers_Bootcamp.png?raw=true)
 
 
 Includes:
@@ -107,5 +107,6 @@ Includes:
 
 ## Screenshots
 
-![AI Applications](https://user-images.githubusercontent.com/example-ai-apps.png)
-![Transformer Attention](https://user-images.githubusercontent.com/example-attention.png)
+![Transformers Sentiment Analysis](https://github.com/Davisonyeas/AI_Presentation/blob/master/images/Screenshot%20from%202025-06-13%2005-31-11.png?raw=true)
+
+![UI Chatbot]()
