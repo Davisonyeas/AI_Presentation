@@ -11,6 +11,7 @@ model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 model.eval()
+
 # clasification and prediction
 def classify_sentiment(text):
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
