@@ -1,0 +1,14 @@
+version: "3.11"
+
+services:
+  app1:
+    build: ./sentiment_analysis
+    container_name: sentiment_analysis
+    ports:
+      - "9000:7860"
+    environment:
+      hf_home: /models
+      
+    
+    volumes:
+      - ./code/transformers_sentiment
