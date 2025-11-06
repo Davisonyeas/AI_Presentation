@@ -32,6 +32,7 @@ def predict_words(text):
     )
     return tokenizer.decode(gen_kwargs[0], skip_special_tokens=True)
 
+# Interface for display
 view = gr.Interface(
     fn=predict_words,
     inputs=gr.Textbox(lines=4, placeholder="Start a sentencee, and the model" \
