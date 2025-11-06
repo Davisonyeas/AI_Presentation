@@ -1,14 +1,43 @@
-version: "3.11"
+version: "3.9"
 
 services:
-  app1:
+  sentiment_analysis:
     build: ./sentiment_analysis
+    image: sentiment_analysis:latest
     container_name: sentiment_analysis
     ports:
       - "9000:7860"
     environment:
       hf_home: /models
-      
-    
+      TRANSFORMERS_CACHE: /models
+      GRADIO_ALLOW_FLAGGING: "never"
     volumes:
-      - ./code/transformers_sentiment
+      - hf_cache:/models
+    depends_on: []
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  prediction_decoder:
+    build: ./predictor
+    image: prediction_decoder:latest
+    container_name: prediction_decoder
+    ports:
+      - "9001:7861"
+    environment:
+      hf_home: /models
+      TRANSFORMERS_CACHE: /models
+      GRADIO_ALLOW_FLAGGING: "never"
+    volumes:
+      - hf_cache:/models
+    depends_on: []
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7861"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  hf_cache:
