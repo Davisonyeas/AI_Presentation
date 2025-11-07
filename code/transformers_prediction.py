@@ -38,7 +38,6 @@ view = gr.Interface(
     inputs=gr.Textbox(lines=4, placeholder="Start a sentencee, and the model" \
     "will complete it for you."),
     outputs="text",
-    # outputs=tokenizer.decode(gen_kwargs[0], skip_special_tokens=True),
     title="Text Generation with Transformers",
     description="This is a text generation app built using Transformers for Bootcamp 2025"
 )
