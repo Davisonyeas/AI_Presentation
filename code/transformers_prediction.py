@@ -14,7 +14,7 @@ tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(model).to(device)
 model.eval()
 
-prompt = "I think the Transformers movie is"
+# prompt = "I think the Transformers movie is"
 
 def predict_words(text):
     inputs = tokenizer(text, return_tensors="pt").to(device)
